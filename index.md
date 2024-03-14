@@ -7,12 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>money</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
-        <h1><img src="images/logo.png" alt="タイトルロゴ"></h1>
         <nav>
+            <h1><img src="images/logo.png" alt="タイトルロゴ"></h1>
             <ul>
+                
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="simulate.html">シミュレーション</a></li>
                 <li><a href="matome.html">まとめ</a></li>
@@ -39,16 +45,31 @@
         </div>
         <div class="section2">
             <div class="kekka">
-                <img src="" alt="">
-                <p></p>
+                <img src="images/dummy2.png" alt="">
+                <p>
+                    XXXXXXXXXXXXX<br>
+                    XXXXXXXXXXXXX<br>
+                    XXXXXXXXXXXXX<br>
+                    XXXXXXXXXXXXX<br>
+                </p>
             </div>
             <div class="kekka">
-                <img src="" alt="">
-                <p></p>
+                <img src="images/dummy2.png" alt="">
+                <p>
+                    XXXXXXXXXXXXX<br>
+                    XXXXXXXXXXXXX<br>
+                    XXXXXXXXXXXXX<br>
+                    XXXXXXXXXXXXX<br>
+                </p>
             </div>
             <div class="kekka">
-                <img src="" alt="">
-                <p></p>
+                <img src="images/dummy2.png" alt="">
+                <p>
+                    XXXXXXXXXXXXX<br>
+                    XXXXXXXXXXXXX<br>
+                    XXXXXXXXXXXXX<br>
+                    XXXXXXXXXXXXX<br>
+                </p>
             </div>
         </div>
         <div class="section3">
@@ -64,7 +85,7 @@
         </div>
     </div>
     <dir class="footer">
-
+        <p>aaa</p>
     </dir>
 </body>
 </html>
