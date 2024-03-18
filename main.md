@@ -35,40 +35,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String img_path = "images/janken.png";
-  String my_img_path = "images/janken.png";
-  String kekka = "";
-
-  void judge(myhand) {
-    int rand = Random().nextInt(3) + 1;
-
-    if (rand == 1) {
-      img_path = "images/janken_gu.png";
-    } else if (rand == 2) {
-      img_path = "images/janken_choki.png";
-    } else {
-      img_path = "images/janken_pa.png";
-    }
-
-    if (myhand == 1) {
-      my_img_path = "images/janken_gu.png";
-    } else if (myhand == 2) {
-      my_img_path = "images/janken_choki.png";
-    } else {
-      my_img_path = "images/janken_pa.png";
-    }
-
-    if (myhand == rand) {
-      kekka += "△";
-    } else if (myhand == 1 && rand == 3 ||
-        myhand == 2 && rand == 1 ||
-        myhand == 3 && rand == 2) {
-      kekka += "×";
-    } else {
-      kekka += "⭕️";
-    }
-    setState(() {});
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -95,21 +61,21 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      judge(1);
+                      
                     },
                     child: Text("グー"),
                   ),
                   SizedBox(width: 50),
                   ElevatedButton(
                     onPressed: () {
-                      judge(2);
+                      
                     },
                     child: Text("チョキ"),
                   ),
                   SizedBox(width: 50),
                   ElevatedButton(
                     onPressed: () {
-                      judge(3);
+                      
                     },
                     child: Text("パー"),
                   ),
@@ -135,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("勝負"),
-                  Text("$kekka"),
+                  
                 ],
               ),
             )
